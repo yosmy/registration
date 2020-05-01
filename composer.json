@@ -1,0 +1,28 @@
+{
+    "name": "yosmy/registration",
+    "description": "",
+    "require": {
+        "php": ">=7.2",
+        "yosmy/device": "@dev",
+        "yosmy/password": "@dev",
+        "yosmy/phone": "@dev",
+        "yosmy/privilege": "@dev",
+        "yosmy/session": "@dev",
+        "yosmy/uniqueness": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yosmy\\": [
+                "src"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://php.yosmy.com"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
